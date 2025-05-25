@@ -20,7 +20,7 @@ const Footer = () => {
               Upload any anime screenshot and get accurate results in seconds.
             </p>
             <p className="text-sm text-gray-400">
-              © 2024 AnimeLens. All rights reserved.
+              © 2025 AnimeLens. All rights reserved.
             </p>
           </div>
 
@@ -41,11 +41,6 @@ const Footer = () => {
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
                   About Us
-                </Link>
-              </li>
-              <li>
-                <Link to="/docs" className="text-gray-300 hover:text-white transition-colors">
-                  Documentation
                 </Link>
               </li>
             </ul>
