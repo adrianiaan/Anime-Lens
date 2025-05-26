@@ -31,8 +31,7 @@ const NotFound = () => {
               Page Not Found
             </h2>
             <p className="text-gray-600 mb-8">
-              Oops! The page you're looking for doesn't exist. It might have been moved, 
-              deleted, or you may have entered the wrong URL.
+              Sorry, this page is not available, please return to the home page
             </p>
           </div>
 
