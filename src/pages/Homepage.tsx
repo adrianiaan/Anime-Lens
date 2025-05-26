@@ -8,7 +8,7 @@ const Homepage = () => {
   const features = [
     {
       icon: <Camera className="h-8 w-8" />,
-      title: "AI-Powered Detection",
+      title: "AI-Powered Anime Recognition Research Platform",
       description: "Advanced machine learning algorithms analyze your anime screenshots with high accuracy"
     },
     {
@@ -54,13 +54,12 @@ const Homepage = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
-              Identify Any Anime
+              Identify Your Favorite Anime
               <br />
-              <span className="text-3xl md:text-5xl">In Seconds</span>
+              <span className="text-3xl md:text-5xl">In Seconds!</span>
             </h1>
             <p className="text-xl md:text-2xl text-purple-100 mb-8 max-w-3xl mx-auto">
-              Upload any anime screenshot and let our AI-powered technology instantly identify the series, 
-              characters, and episode details with incredible accuracy.
+              Upload any anime character image and we’ll find the title for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

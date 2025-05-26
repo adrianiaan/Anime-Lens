@@ -1,4 +1,4 @@
-# AnimeLens - AI-Powered Anime Detection
+# AnimeLens - AI-Powered Anime Recognition Research Platform
 
 ## Project Overview
 
@@ -6,7 +6,7 @@
 
 ## Features
 
-- 🤖 **AI-Powered Detection**: Advanced machine learning algorithms for accurate anime identification
+- 🤖 **AI-Powered Anime Recognition Research Platform**: Advanced machine learning algorithms for accurate anime identification
 - 📱 **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 - 🎨 **Modern UI/UX**: Beautiful interface with smooth animations and intuitive navigation
 - 📊 **Detailed Results**: Comprehensive anime information including synopsis, characters, and external links

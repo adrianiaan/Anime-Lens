@@ -25,9 +25,14 @@ const Navigation = () => {
             <div className="bg-gradient-to-r from-purple-600 to-blue-600 p-2 rounded-lg group-hover:scale-105 transition-transform">
               <Camera className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              AnimeLens
-            </span>
+            <div className="flex flex-col">
+              <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                AnimeLens
+              </span>
+              <span className="text-xs text-gray-500">
+                Developed by Team CC25-CR364
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

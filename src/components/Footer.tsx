@@ -13,7 +13,10 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-purple-600 to-blue-600 p-2 rounded-lg">
                 <Camera className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold">AnimeLens</span>
+              <div className="flex flex-col">
+                <span className="text-xl font-bold">AnimeLens</span>
+                <span className="text-xs text-gray-400">Developed by Team CC25-CR364</span>
+              </div>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Discover anime titles instantly with our AI-powered image recognition technology. 
