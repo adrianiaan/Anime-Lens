@@ -128,12 +128,11 @@ const ContactPage = () => {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-colors"
                     >
                       <option value="">Select a subject</option>
+                      <option value="press">Detection Mismatch</option>
                       <option value="general">General Inquiry</option>
-                      <option value="api">API Support</option>
                       <option value="bug">Bug Report</option>
                       <option value="feature">Feature Request</option>
                       <option value="business">Business Partnership</option>
-                      <option value="press">Press Inquiry</option>
                     </select>
                   </div>
                   
@@ -191,13 +190,6 @@ const ContactPage = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start space-x-3">
-                  <MapPin className="h-5 w-5 text-purple-600 mt-1" />
-                  <div>
-                    <p className="font-medium text-gray-900">Office</p>
-                    <p className="text-gray-600">Tokyo, Japan</p>
-                  </div>
-                </div>
                 
                 <div className="flex items-start space-x-3">
                   <Clock className="h-5 w-5 text-purple-600 mt-1" />
@@ -214,21 +206,21 @@ const ContactPage = () => {
               <h3 className="text-lg font-semibold text-purple-900 mb-4">Quick Help</h3>
               <div className="space-y-3">
                 <div>
-                  <h4 className="font-medium text-purple-800">API Issues?</h4>
-                  <p className="text-sm text-purple-700">
-                    Check our documentation for common solutions and code examples.
-                  </p>
-                </div>
-                <div>
                   <h4 className="font-medium text-purple-800">Detection Problems?</h4>
                   <p className="text-sm text-purple-700">
                     Make sure your image is clear and shows anime characters or scenes.
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-medium text-purple-800">Account Questions?</h4>
+                  <h4 className="font-medium text-purple-800">Upload Errors?</h4>
                   <p className="text-sm text-purple-700">
-                    Visit our FAQ section or contact us directly for account support.
+                  Ensure your file is in JPG or PNG format and does not exceed the maximum size limit. Refresh the page if the issue persists.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-medium text-purple-800">No Match Found?</h4>
+                  <p className="text-sm text-purple-700">
+                  Try uploading a different frame or image. Some anime may not be in our current database, but we’re constantly improving.
                   </p>
                 </div>
               </div>
