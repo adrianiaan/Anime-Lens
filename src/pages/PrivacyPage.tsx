@@ -64,10 +64,10 @@ const PrivacyPage = () => {
           
           <div className="mb-8">
             <p className="text-gray-600 text-base">
-              <strong>Last updated:</strong> January 15, 2024
+              <strong>Last updated:</strong> May 30, 2025
             </p>
             <p className="text-gray-600">
-              This Privacy Policy explains how AnimeLens ("we," "our," or "us") collects, uses, and protects 
+              This Privacy Policy explains how AnimeLens collects, uses, and protects 
               your information when you use our anime detection service.
             </p>
           </div>
@@ -78,25 +78,22 @@ const PrivacyPage = () => {
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Images and Visual Content</h3>
             <p className="text-gray-600 mb-4">
               When you use our anime detection service, we temporarily process the images you upload. 
-              These images are used solely for the purpose of identifying anime content and are automatically 
-              deleted from our servers within 24 hours of processing.
+              These images are used solely for the purpose of identifying anime content and are <strong>automatically 
+              deleted from our servers within 24 hours of processing</strong>.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Usage Data</h3>
             <p className="text-gray-600 mb-4">
-              We collect basic usage information including:
+              We collect basic usage information such as:
             </p>
             <ul className="list-disc list-inside text-gray-600 mb-4 space-y-1">
               <li>Number of images processed</li>
-              <li>API response times and accuracy metrics</li>
+              <li>Detection accuracy metrics</li>
               <li>Basic device and browser information</li>
               <li>IP addresses (anonymized after 30 days)</li>
             </ul>
-
-            <h3 className="text-lg font-semibold text-gray-900 mb-3">Account Information</h3>
-            <p className="text-gray-600">
-              If you create an account for API access, we collect your email address and basic account 
-              preferences. This information is used for account management and service communication only.
+            <p className="text-gray-600 text-base">
+              <strong>Note:</strong> We do <strong>not</strong> collect or store any personal login data, as no account is required to use our service.
             </p>
           </section>
 
@@ -106,11 +103,10 @@ const PrivacyPage = () => {
               We use the collected information for the following purposes:
             </p>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
-              <li><strong>Service Provision:</strong> To analyze your images and provide anime identification results</li>
-              <li><strong>Service Improvement:</strong> To enhance our AI models and improve detection accuracy</li>
-              <li><strong>Technical Support:</strong> To troubleshoot issues and provide customer support</li>
-              <li><strong>Security:</strong> To prevent abuse and ensure service reliability</li>
-              <li><strong>Communication:</strong> To send important service updates and notifications</li>
+              <li><strong>Anime Detection:</strong> To analyze the uploaded image and return anime-related results</li>
+              <li><strong>Service Improvement:</strong> To improve detection models and performance metrics</li>
+              <li><strong>Technical Support:</strong> To help investigate issues with the service</li>
+              <li><strong>Security & Abuse Prevention:</strong> To protect our service from misuse</li>
             </ul>
           </section>
 
@@ -120,13 +116,12 @@ const PrivacyPage = () => {
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Encryption</h3>
             <p className="text-gray-600 mb-4">
               All data transmission to and from our servers is encrypted using industry-standard TLS encryption. 
-              Images are processed in secure, isolated environments and are never stored permanently.
+              Images are processed in secure, isolated environments and is <strong>never stored permanently</strong>.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Access Controls</h3>
             <p className="text-gray-600 mb-4">
-              Access to user data is strictly limited to authorized personnel who require it for service 
-              operation and improvement. All access is logged and monitored.
+            Only authorized personnel can access system logs or temporary image data, solely for operational or debugging purposes. All access is logged and monitored.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Data Minimization</h3>
@@ -142,16 +137,15 @@ const PrivacyPage = () => {
             <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
               <h3 className="text-lg font-semibold text-green-900 mb-2">Image Data</h3>
               <p className="text-green-800">
-                <strong>Automatic Deletion:</strong> All uploaded images are automatically deleted from our servers 
-                within 24 hours of processing, regardless of whether analysis was successful.
+                <strong>Automatic Deletion:</strong> Images are <strong>automatically deleted immediately after processing is completed</strong>. In most cases, this occurs within <strong>minutes</strong>, and in all cases, no later than <strong>24 hours</strong> after upload.
               </p>
             </div>
 
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Other Data Types</h3>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
-              <li><strong>Usage Analytics:</strong> Retained for up to 12 months for service improvement</li>
-              <li><strong>Account Data:</strong> Retained until account deletion is requested</li>
-              <li><strong>Support Communications:</strong> Retained for up to 2 years for quality assurance</li>
+              <li><strong>Usage Data:</strong> We collect only non-identifiable usage metrics (e.g., detection success rates).</li>
+              <li><strong>Account Data:</strong> No account or payment data is collected or stored.</li>
+              <li><strong>Support Inquiries:</strong> Retained for up to 2 years for quality assurance</li>
             </ul>
           </section>
 
@@ -161,12 +155,13 @@ const PrivacyPage = () => {
               We use select third-party services to operate our platform:
             </p>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
-              <li><strong>Cloud Infrastructure:</strong> For secure image processing and storage</li>
-              <li><strong>Analytics Services:</strong> For understanding service usage (anonymized data only)</li>
-              <li><strong>Payment Processing:</strong> For handling API subscription payments (we don't store payment details)</li>
+              <li><strong>Cloud Infrastructure:</strong> To handle secure and scalable image processing</li>
+              <li><strong>Analytics Services:</strong> To understand usage trends (anonymized data only)</li>
             </ul>
+            
+
             <p className="text-gray-600 mt-4">
-              All third-party services are carefully vetted and comply with strict data protection standards.
+            We do not use third-party APIs that require user credentials, nor do we provide public API access.
             </p>
           </section>
 
@@ -176,9 +171,8 @@ const PrivacyPage = () => {
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Data Access and Control</h3>
             <p className="text-gray-600 mb-4">You have the right to:</p>
             <ul className="list-disc list-inside text-gray-600 space-y-2 mb-4">
-              <li>Request access to your personal data</li>
               <li>Correct inaccurate or incomplete information</li>
-              <li>Delete your account and associated data</li>
+              <li>Contact us for any concerns regarding data use</li>
               <li>Opt out of non-essential communications</li>
               <li>Request data portability where applicable</li>
             </ul>
@@ -191,34 +185,21 @@ const PrivacyPage = () => {
           </section>
 
           <section className="mb-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">7. International Data Transfers</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Children's Privacy</h2>
             <p className="text-gray-600">
-              Our primary data processing occurs in secure facilities in Japan and the United States. 
-              If data is transferred internationally, we ensure appropriate safeguards are in place, 
-              including standard contractual clauses and adequacy decisions.
+            Our service is not intended for children under 13 years old. We do not knowingly collect personal data from minors. If any such data is discovered, it will be deleted immediately.
             </p>
           </section>
 
           <section className="mb-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Children's Privacy</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Changes to This Policy</h2>
             <p className="text-gray-600">
-              Our service is not directed at children under 13 years of age. We do not knowingly collect 
-              personal information from children under 13. If we become aware that we have collected 
-              personal information from a child under 13, we will take steps to delete such information promptly.
+            We may update this Privacy Policy from time to time. If we make significant changes, we will notify users via the website. Continued use of AnimeLens after updates constitutes acceptance of the new terms.
             </p>
           </section>
 
           <section className="mb-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Changes to This Policy</h2>
-            <p className="text-gray-600">
-              We may update this Privacy Policy from time to time to reflect changes in our practices or 
-              legal requirements. We will notify users of any significant changes via email or through 
-              our service. Continued use of our service after changes constitutes acceptance of the updated policy.
-            </p>
-          </section>
-
-          <section className="mb-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Contact Us</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Contact Us</h2>
             <p className="text-gray-600 mb-4">
               If you have any questions about this Privacy Policy or our data practices, please contact us:
             </p>
