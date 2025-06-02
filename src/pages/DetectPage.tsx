@@ -95,10 +95,10 @@ const DetectPage = () => {
             Back to Home
           </Link>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-            Anime Detection
+            Detect Anime Title with AnimeLens
           </h1>
           <p className="text-lg text-gray-600">
-            Upload an anime screenshot and let our AI identify it for you
+            Upload your anime screenshot and let our AI instantly detect the anime title
           </p>
         </div>
 
@@ -121,10 +121,10 @@ const DetectPage = () => {
                   <Upload className="h-8 w-8" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  Upload Anime Screenshot
+                  Select Your Anime Image
                 </h3>
                 <p className="text-gray-600 mb-6">
-                  Drag and drop your image here, or click to browse
+                  Drag your image here or click to choose a file from your device
                 </p>
                 <button
                   onClick={() => fileInputRef.current?.click()}
@@ -140,7 +140,7 @@ const DetectPage = () => {
                   className="hidden"
                 />
                 <p className="text-sm text-gray-500 mt-4">
-                  Supports JPG, PNG, GIF up to 10MB
+                  We accept JPG, PNG, and GIF files (up to 10MB)
                 </p>
               </div>
             </div>
@@ -149,7 +149,7 @@ const DetectPage = () => {
             <div>
               <div className="flex justify-between items-center mb-6">
                 <h3 className="text-xl font-semibold text-gray-900">
-                  Image Preview
+                  Preview your uploaded image
                 </h3>
                 <button
                   onClick={resetDetection}
@@ -173,7 +173,7 @@ const DetectPage = () => {
                       className="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white py-3 rounded-lg font-medium hover:shadow-lg hover:scale-105 transition-all duration-200 flex items-center justify-center space-x-2"
                     >
                       <Camera className="h-5 w-5" />
-                      <span>Detect Anime</span>
+                      <span>Click to identify the anime</span>
                     </button>
                   )}
                 </div>
@@ -187,7 +187,7 @@ const DetectPage = () => {
                         Analyzing Image...
                       </h4>
                       <p className="text-gray-600">
-                        Our AI is identifying the anime in your screenshot
+                        Our AI is identifying the anime
                       </p>
                     </div>
                   )}
@@ -246,22 +246,6 @@ const DetectPage = () => {
                           </button>
                         </div>
                       </div>
-
-                      {detectionResult.alternativeGuesses && detectionResult.alternativeGuesses.length > 0 && (
-                        <div className="bg-gray-50 rounded-lg p-4">
-                          <h5 className="font-medium text-gray-900 mb-3">Alternative Suggestions:</h5>
-                          <div className="space-y-2">
-                            {detectionResult.alternativeGuesses.map((guess: any, index: number) => (
-                              <div key={index} className="flex justify-between items-center">
-                                <span className="text-gray-700">{guess.title}</span>
-                                <span className="text-sm text-gray-500">
-                                  {Math.round(guess.confidence * 100)}%
-                                </span>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      )}
                     </div>
                   )}
                 </div>

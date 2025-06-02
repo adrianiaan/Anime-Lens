@@ -66,7 +66,7 @@ const AboutPage = () => {
           </h1>
           <div className="max-w-3xl mx-auto text-center text-white space-y-6">
             <p className="text-xl md:text-2xl">
-              Have you ever stumbled upon an incredible anime image and wondered, "What anime is this from?" You're not alone — and that's exactly why we created AnimeLens.
+              Have you ever stumbled upon an incredible anime image and wondered, "What anime is this from?" You're not alone  and that's exactly why we created AnimeLens.
             </p>
             <p className="text-xl md:text-2xl">
               AnimeLens is a web-based AI-powered image recognition platform designed to help anime fans instantly identify anime titles from a single image.
@@ -238,7 +238,7 @@ const AboutPage = () => {
             Whether you're a dedicated anime fan or a casual viewer, AnimeLens helps you discover and identify anime titles in seconds.
           </p>
           <p className="text-xl mb-8">
-            Don’t miss out—be part of the growing AnimeLens community now!
+            Don’t miss out be part of the growing AnimeLens community now!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

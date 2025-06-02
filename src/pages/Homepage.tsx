@@ -61,7 +61,7 @@ const Homepage = () => {
               <span className="text-3xl md:text-5xl">In Seconds!</span>
             </h1>
             <p className="text-xl md:text-2xl text-purple-100 mb-8 max-w-3xl mx-auto">
-              Upload your screenshot and discover the anime you’ve been searching for in seconds—quick, accurate, and easy!
+              Upload your screenshot and discover the anime you’ve been searching for in seconds quick, accurate, and easy!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -95,7 +95,7 @@ const Homepage = () => {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               AnimeLens offers fast, accurate anime identification using AI.
-              Simply upload an image, and get the anime title in seconds—no more manual searching required!
+              Simply upload an image, and get the anime title in seconds no more manual searching required!
             </p>
           </div>
           
@@ -152,7 +152,7 @@ const Homepage = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Instant Results at Your Fingertips</h3>
               <p className="text-gray-600">
-                Get the anime title, a brief synopsis, and other details—all in seconds.
+                Get the anime title, a brief synopsis, and other details all in seconds.
               </p>
             </div>
           </div>
@@ -199,7 +199,7 @@ const Homepage = () => {
             Ready to Uncover Your Next Anime in Seconds?
           </h2>
           <p className="text-xl mb-8">
-            Start discovering anime instantly with AnimeLens—simply upload a screenshot and let our AI work its magic!
+            Start discovering anime instantly with AnimeLens simply upload a screenshot and let our AI work its magic!
           </p>
           <Link
             to="/detect"
