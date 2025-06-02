@@ -20,7 +20,7 @@ const NotFound = () => {
     <div className="min-h-screen bg-white flex flex-col">
       <Navigation />
       
-      <div className="flex-grow flex items-center justify-center bg-gradient-to-br from-purple-50 to-blue-50">
+      <div className="flex-grow flex items-center justify-center bg-gradient-to-br from-purple-50 to-blue-50 pt-20">
         <div className="max-w-md mx-auto text-center px-4">
           <div className="mb-8">
             <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6 rounded-full w-fit mx-auto mb-6">
